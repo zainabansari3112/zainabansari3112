@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+}
+.result{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    padding-right: 170px;
+    bottom: 236px;
+}
+.maition{
+  /* background-color: aqua; */
+  /* background-color: blue; */
+  /* position: relative; */
+  animation-duration: 1s;
+  animation-name: spin ;
+  animation-iteration-count:1;
+  animation-delay: 1s;
+  animation-timing-function: 1s;
+  animation-direction:reverse ;
+  /* animation-fill-mode: ; */
+  
+}
+@keyframes spin{
+  from{
+    transform: translateY(0);
+  }
+  to{
+   transform: translateY(-300px);
+  }
+}
+
+
+
+/* transition-delay: 250ms;   */
+/* transition-property: margin-right; */
